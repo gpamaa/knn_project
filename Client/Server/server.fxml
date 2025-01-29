@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="e: url('C:\Users\user\Desktop\M7.jpg'); -fx-border-image-repeat: stretch;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Server.Controllerserver">
+   <children>
+      <ImageView depthTest="ENABLE" fitHeight="420.0" fitWidth="613.0" layoutX="-6.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@server_BG.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="245.0" layoutY="306.0" mnemonicParsing="false" onAction="#btConnettiClicked" prefHeight="25.0" prefWidth="99.0" text="Connetti" />
+      <Label layoutX="262.0" layoutY="139.0" text="Indirizzo IP" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="203.0" text="Numero di porta" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="portaField" layoutX="220.0" layoutY="223.0" />
+      <TextField fx:id="indirizzoField" layoutX="222.0" layoutY="159.0" />
+      <Label fx:id="erroreLabel" alignment="CENTER" layoutX="-3.0" layoutY="354.0" prefHeight="17.0" prefWidth="600.0" text="errore" textAlignment="CENTER" textFill="#a7ac10" visible="false" />
+   </children>
+</Pane>

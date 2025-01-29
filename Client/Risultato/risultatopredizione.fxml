@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Risultato.Controllerrisultato">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="606.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rispredict.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="27.0" layoutY="317.0" mnemonicParsing="false" onAction="#cambiaQueryPoint" prefHeight="25.0" prefWidth="149.0" text="Cambia Query point">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5742828845977783" green="0.14790000021457672" blue="0.8700000047683716" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Label layoutX="176.0" layoutY="197.0" text="per calcolare una nuova predizione cambiando " textFill="WHITE" />
+      <Label layoutX="227.0" layoutY="214.0" text="il query point torna indietro." textFill="WHITE" />
+      <Label fx:id="risultatoLabel" layoutX="406.0" layoutY="152.0" prefHeight="31.0" prefWidth="96.0" textFill="WHITE">
+         <font>
+            <Font name="Neue Haas Grotesk Display Pro 65 Medium" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="esciButton" layoutX="427.0" layoutY="317.0" mnemonicParsing="false" onAction="#uscita" prefHeight="25.0" prefWidth="149.0" text="Esci">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5742828845977783" green="0.14790000021457672" blue="0.8700000047683716" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="194.0" layoutY="317.0" mnemonicParsing="false" onAction="#cambiaModalita" prefHeight="25.0" prefWidth="214.0" text="Cambia modalità di acquisizione">
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.5742828845977783" green="0.14790000021457672" blue="0.8700000047683716" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</Pane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="Client.Main.Controllermain">
+   <children>
+      <ImageView fitHeight="414.0" fitWidth="611.0" layoutX="-3.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Guida.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="32.0" layoutY="117.0" prefHeight="20.0" prefWidth="295.0" text="Dato un training set ( X, Y ), un esempio x denominato" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="136.0" prefHeight="17.0" prefWidth="295.0" text="query per il quale il valore di Y sia sconosciuto ed un" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="154.0" text="intero k maggiore di 0, predice il valore sconosciuto" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="171.0" text="di Y associato ad x identificando i k esempi del" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="188.0" text="training set più vicini ad X e restituendo la media" textFill="WHITE" />
+      <Label layoutX="32.0" layoutY="205.0" text="dei valori Y nei k vicini selezionati." textFill="WHITE" />
+      <Button layoutX="139.0" layoutY="276.0" mnemonicParsing="false" onAction="#indietro" prefHeight="20.0" prefWidth="59.0" text="Indietro">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

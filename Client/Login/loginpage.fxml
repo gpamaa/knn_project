@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Login.Controllerlogin">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="658.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@loginpage.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="276.0" layoutY="275.0" mnemonicParsing="false" onAction="#login" prefHeight="33.0" prefWidth="57.0" text="Login" />
+      <PasswordField fx:id="passwordField" layoutX="178.0" layoutY="200.0" prefHeight="25.0" prefWidth="253.0" promptText="Password" />
+      <TextField fx:id="usernameField" layoutX="178.0" layoutY="158.0" prefHeight="25.0" prefWidth="253.0" promptText="Username" />
+      <Label fx:id="loginErrorLabel" alignment="TOP_CENTER" layoutX="147.0" layoutY="241.0" prefHeight="18.0" prefWidth="314.0" text="Errore, username o password errata!" textFill="#f8f405" visible="false" />
+      <TextField fx:id="tabellaField" layoutX="178.0" layoutY="158.0" prefHeight="26.0" prefWidth="253.0" promptText="Nome tabella" visible="false" />
+   </children>
+</Pane>

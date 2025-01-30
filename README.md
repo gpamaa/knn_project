@@ -1,4 +1,4 @@
-# knn_project
+# Knn_project
 ## Introduction:
 The software in question is based on the KNN ( k-nearest neighbors ) algorithm.
 The detailed explanation of the KNN algorithm is present in the user guide available to the user in the "Introduction" section.

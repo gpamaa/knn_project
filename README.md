@@ -1,6 +1,6 @@
 # Knn_project
 ## Introduction:
-The software in question is based on the KNN ( k-nearest neighbors ) algorithm.
+The software is based on the KNN ( k-nearest neighbors ) algorithm.
 The detailed explanation of the KNN algorithm is present in the user guide available to the user in the "Introduction" section.
 We have created the project using the different classes provided by the teacher. In this way the code has been divided by diversifying the various functions in several distinct classes.
 The program initially acquires the mode with which the user wants to load the training set into memory, that is, the table that will be used as a reference base for calculating the prediction. The acquisition modes are: text file, binary file and database.
